@@ -1,0 +1,91 @@
+<!-- showcase.html - Showcase Page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showcase</title>
+    <link href="output.css" rel="stylesheet">
+</head>
+
+<body class="bg-white text-black font-sans">
+
+    <!-- Navigation -->
+    <nav class=" flex justify-center  text-center py-8 bg-slate-600">
+        <p class="mx-10 text-xl">
+            <a href="index.html" class="text-gray-400  hover:underline">Home</a>
+        </p>
+        <p class="mx-10 text-xl">
+            <a href=" showcase.html" class="text-white underline">Showcase</a>
+        </p>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="text-center py-10">
+        <h1 class="text-7xl font-bold text-blue-600">Website Gallery</h1>
+        <h2 class="text-2xl text-gray-700 mt-4">Built by me.</h2>
+    </header>
+
+    <!-- Websites Section with Images -->
+    <section class="text-center px-8">
+        <p class="mt-6 text-xl">Here are some of my <b>websites</b>:</p>
+        <div class="flex flex-wrap justify-center mt-4">
+            <a href="https://rinmeng.github.io" target="_blank"><img src="images/photo1.png" alt="rin website"
+                    class="max-w-lg h-auto m-5 "></a>
+            <a href="https://kdtsuo.github.io" target="_blank"><img src="images/photo2.png" alt="kdt website"
+                    class="max-w-lg h-auto m-5"></a>
+            <a href="https://seacsuo.github.io" target="_blank"><img src="images/photo3.png" alt="seac website"
+                    class="max-w-lg h-auto m-5 "></a>
+        </div>
+    </section>
+
+    <!-- List of Stacks Used -->
+    <section class="m-5 flex flex-col items-center">
+        <div class="m-5 ">
+            <h3 class="text-4xl font-semibold">Stacks I Used:</h3>
+            <ol class="list-decimal list-inside mt-4 ml-4">
+                <li>React.js</li>
+                <li>TailwindCSS</li>
+                <li>JavaScript</li>
+            </ol>
+        </div>
+
+        <!-- Website Data Table -->
+        <div class="m-5">
+            <h3 class="text-4xl font-semibold">Website Details:</h3>
+            <table class="table-auto border-collapse border border-gray-300 my-4 w-full text-center">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="border border-gray-300 px-4 py-2">Website</th>
+                        <th class="border border-gray-300 px-4 py-2">Stack Used</th>
+                        <th class="border border-gray-300 px-4 py-2">Purpose</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-gray-300 px-4 py-2">Rin Meng</td>
+                        <!-- Merged "Stack Used" column for the next 3 rows -->
+                        <td class="border border-gray-300 px-4 py-2" rowspan="3">React.js + TailwindCSS</td>
+                        <td class="border border-gray-300 px-4 py-2">Personal Portfolio</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-300 px-4 py-2">KDT @ SUO</td>
+                        <td class="border border-gray-300 px-4 py-2">Sponsor Attraction</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-300 px-4 py-2">SEAC @ SUO</td>
+                        <td class="border border-gray-300 px-4 py-2">Club Showcase</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+    </section>
+
+
+</body>
+
+</html>
